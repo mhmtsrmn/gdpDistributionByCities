@@ -57,4 +57,4 @@ p <- ggplot(data = tr) +
                  year, ") / Illere Gore Yuzdelik GSYH Dagilimi (", year,")"),
           subtitle = "Data Source: TurkStat / Veri Kaynagi: TUIK")
 p
-ggsave(paste0("trgdp", year,".png"), p, units = "cm", width = 5, height = 2.5)
+ggsave(paste0("trgdp", year,".png"), p, units = "cm", width = 30, height = 15)
